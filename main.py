@@ -8,14 +8,19 @@ def convertFromSignedHex(s):
 
 for filename in filenames:
     src = open(filename + ".atthemesrc", "r")
+    img = open(filename + ".image", "rb")
 
     theme = open(filename + ".attheme", "w")
+
+    image = img.read()
 
     for line in src:
         ohh = line.split("=")
 
         i = convertFromSignedHex(ohh[1])
         theme.write(ohh[0]+"="+str(i)+"\n")
-
+    theme.close()
+    theme = open(filename + ".attheme", "ab")
+    theme.write(image)
     src.close()
     theme.close()
