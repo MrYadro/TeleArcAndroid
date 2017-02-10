@@ -15,10 +15,13 @@ for filename in filenames:
     image = img.read()
 
     for line in src:
-        ohh = line.split("=")
+        magicColor = line.strip().split("=")
 
-        i = convertFromSignedHex(ohh[1])
-        theme.write(ohh[0]+"="+str(i)+"\n")
+        swapedColor = magicColor[1][-3:]+magicColor[1][:6]
+
+        i = convertFromSignedHex(swapedColor)
+        theme.write(magicColor[0]+"="+str(i)+"\n")
+
     theme.close()
     theme = open(filename + ".attheme", "ab")
     theme.write(image)
