@@ -12,9 +12,9 @@ for filename in filenames:
 
     for line in src:
         magicColor = line.strip().split("=")
-        swapedColor = magicColor[1][-2:]+magicColor[1][:6]
+        swapedColor = magicColor[1][-2:]+magicColor[1][1:7]
         i = convertFromSignedHex(swapedColor)
         theme.write(magicColor[0]+"="+str(i)+"\n")
-        
+
     src.close()
     theme.close()
