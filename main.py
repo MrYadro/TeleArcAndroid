@@ -1,4 +1,4 @@
-filenames = ["arc", "arc_darker", "arc_dark"]
+filenames = [["arc","Arc"], ["arc_darker","Arc Darker"], ["arc_dark","Arc Dark"]]
 
 def convertFromSignedHex(s):
     x = int(s,16)
@@ -7,8 +7,8 @@ def convertFromSignedHex(s):
     return x
 
 for filename in filenames:
-    src = open(filename + ".atthemesrc", "r")
-    theme = open(filename + ".attheme", "w")
+    src = open(filename[0] + ".atthemesrc", "r")
+    theme = open(filename[1] + ".attheme", "w")
 
     for line in src:
         magicColor = line.strip().split("=")
