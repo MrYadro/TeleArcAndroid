@@ -4,11 +4,11 @@ Based on [Arc KDE][arc_kde]
 
 ## Preview
 ##### Light (Arc)
-![Light L]()![Light R]()
+![light_preview_l]![light_preview_r]
 ##### Darker (Arc Darker)
-<img src="https://raw.githubusercontent.com/MrYadro/TeleArc/master/darker_preview.png" alt="Darker preview" style="width:903;height:584">
+![darker_preview_l]![darker_preview_r]
 ##### Dark (Arc Dark)
-<img src="https://raw.githubusercontent.com/MrYadro/TeleArc/master/dark_preview.png" alt="Dark preview" style="width:903;height:584">
+![dark_preview_l]![dark_preview_r]
 
 ## Dependencies
 - `python 3` for building
