@@ -1,4 +1,4 @@
-filenames = [["arc","Arc"], ["arc_darker","Arc Darker"], ["arc_dark","Arc Dark"], ["colors", "Converted"]]
+filenames = [["arc","Arc"], ["arc_darker","Arc Darker"], ["arc_dark","Arc Dark"]]
 
 def convertFromSignedHex(s):
     x = int(s,16)
