@@ -20,6 +20,8 @@ for filename in filenames:
             swapedColor = "D0"+magicColor[1][1:7]
         elif magicColor[0] == "contextProgressInner1" or magicColor[0] == "contextProgressInner2":
             swapedColor = "41"+magicColor[1][1:7]
+        elif magicColor[0] == "chats_menuPhone" or magicColor[0] == "chats_menuPhoneCats":
+            swapedColor = "99"+magicColor[1][1:7]
         else:
             swapedColor = magicColor[1][-2:]+magicColor[1][1:7]
         i = convertFromSignedHex(swapedColor)

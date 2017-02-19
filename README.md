@@ -14,7 +14,7 @@ Based on [Arc KDE][arc_kde]
 - `python 3` for building
 
 ## Installation
-1. Make sure you have latest [Telegram Desktop][telegram_android]
+1. Make sure you have latest [Telegram for Android][telegram_android]
 2. Download archive from Releases (or come to our chat [@TeleArc][telegram_channel])
 3. Send archive to any chat, then click on it
 
