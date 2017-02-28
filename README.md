@@ -25,9 +25,9 @@ Based on [Arc KDE][arc_kde]
 [arc_gtk]: https://github.com/horst3180/arc-theme
 [arc_kde]: https://github.com/PapirusDevelopmentTeam/arc-kde
 [telegram_channel]: https://t.me/TeleArc
-[light_preview_l]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/light_preview_l.png
-[light_preview_r]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/light_preview_r.png
-[darker_preview_l]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/darker_preview_l.png
-[darker_preview_r]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/darker_preview_r.png
-[dark_preview_l]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/dark_preview_l.png
-[dark_preview_r]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/dark_preview_r.png
+[light_preview_l]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/preview/light_preview_l.png
+[light_preview_r]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/preview/light_preview_r.png
+[darker_preview_l]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/preview/darker_preview_l.png
+[darker_preview_r]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/preview/darker_preview_r.png
+[dark_preview_l]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/preview/dark_preview_l.png
+[dark_preview_r]: https://raw.githubusercontent.com/MrYadro/TeleArcAndroid/master/preview/dark_preview_r.png
