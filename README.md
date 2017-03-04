@@ -10,16 +10,10 @@ Based on [Arc KDE][arc_kde]
 ##### Dark (Arc Dark)
 ![dark_preview_l]![dark_preview_r]
 
-## Dependencies
-- `python 3` for building
-
 ## Installation
 1. Make sure you have latest [Telegram for Android][telegram_android]
 2. Download archive from Releases (or come to our chat [@TeleArc][telegram_channel])
 3. Send archive to any chat, then click on it
-
-## Building
-1. Run `python3 main.py`
 
 [telegram_android]: https://telegram.org/dl/android
 [arc_gtk]: https://github.com/horst3180/arc-theme
