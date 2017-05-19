@@ -1,4 +1,6 @@
-# [@TeleArc][telegram_channel] - Arc theme for [Telegram for Android][telegram_android]
+# TeleArc - Arc theme for [Telegram for Android][telegram_android]
+[![Telegram Chat](https://img.shields.io/badge/chat-on%20telegram-0d86d7.svg?style=flat)][telegram_channel]
+
 Telegram port of popular [Arc GTK][arc_gtk]  
 Based on [Arc KDE][arc_kde]
 
