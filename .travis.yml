@@ -1,3 +1,4 @@
+language: bash
 deploy:
   provider: releases
   api_key:
