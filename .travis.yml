@@ -1,0 +1,11 @@
+deploy:
+  provider: releases
+  api_key:
+    secure: BZ4Vr5vu0HHV76zTf803687+b2D0JekLMv1yR0xAHnbW1JlOc1AIInwsgNrmO8pNg7mzl0yYGP2IMi7yeGON8kDvFPYBEnKMztThCdJQCdIcftJMR+M1kc348uJltcNGzz0qeyT0GPtsGsvCfXKZem0L26ZkgiSw/h+AqSVc1xY5MBWfCQci6TJwVSfLHOhjsFElzaEcltBnh6fjGpn+17BHItiUV/GxViW7a1ikpiCCOBeZ4JAqPy6izzGY7MqZ40ZALfENIF83btJ/BzTbcU0yG5/Rj8OidRwnMCN+QlCzpquduntRYq2EAAWg+MgexfUDQaxC0YBzw7W0QYxi7YsX1TRQEIoHMo1nio/kPMOplQL26lTi2szUquwxLTnnU7DiHnB+/vdtTYn+02dA4lLVswLvsSn05YBkJHFsuQt7bCoHLWE/Mo2EyklBIgCn3YIc0ud5nhStkigWjf7AMkS76BWonlYBpDKFmtPYhqLxhnmxbMlfw0IUub/ynLi+lpjD/Fq5fDdibcIzRKcWd4jYfTCKCNbujUnhC0vhx8Fw+XmY2dtSgve62C1BINfQY333l/f4GsGdp7DgZ9O4ziaAy/C4vOG7ggoRHvlY0x8nW/jypul2h1t1+Tk36WIXsOJd0YjkvKPIVom9IQZl/q8KriHdKHsgaT7+bzgljK4=
+  file:
+    - "arc.attheme"
+    - "arc_darker.attheme"
+    - "arc_dark.attheme"
+  on:
+    tags: true
+    all_branches: true
